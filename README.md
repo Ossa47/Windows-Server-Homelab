@@ -11,9 +11,9 @@ This repository documents my Homelab environment. The lab is built on Hyper-V an
 ## Server & Network Architecture
 | Server Name | Role | OS | Static IP |
 
-| **DC01** | Domain Controller / DNS / DHCP | Windows Server | 192.168.10.10 |
-| **FS01** | File Server | Windows Server | 192.168.10.20 |
-| **user** | User Device | Windows 11 | DHCP |
+* | **DC01** | Domain Controller / DNS / DHCP | Windows Server | 192.168.10.10 |
+* | **FS01** | File Server | Windows Server | 192.168.10.20 |
+* | **user** | User Device | Windows 11 | DHCP |
 
 ## Repository Contents
 * `/Scripts` - PowerShell scripts for task automation (e.g., adding users).
